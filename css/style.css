@@ -665,11 +665,57 @@ width: 0;
     box-shadow: 5px 10px 14px #07ACE629;
 }
 
+/* footer section */
+.footer{
+    box-shadow: 0 -5px 40px #00000029;
+    background-color: #F7F7F7;
+
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 21px 0 17px;
+}
+
+.logo>a{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #08A6E4;
+    text-decoration: none;
+    margin-bottom: 6px;
+    
+
+}
+
+.logo p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    font: 400px;
+    color: #A5A5A5;
+}
+.media{
+    display: flex;
+    margin-top: 35px;
+}
+.media > a{
+    margin-left: 20px;
+}
+.media img{
+    width: 24px;
+    height: 24px;
+}
 
 
 
 
 
 /* TO DO  */
+/* use ::before instead ov divs in background images */
 /* add icons to questions section  */
 /* make checkbox checked img smaller */
+/* anchor tags */
