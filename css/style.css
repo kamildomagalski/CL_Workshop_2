@@ -556,10 +556,19 @@ header {
 .mail-tel {
     display: flex;
     flex-direction: row;
-
+    align-items: center;
 }
-
-/* .email::before */
+.mail-tel img{
+    margin-right: 10px;
+    
+}
+.mail-tel p{
+    font-family: var(--font-secondarysecondary);
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: var(--color-grey);
+    margin-right: 20px;
+}
 
 .forms {
     display: flex;
@@ -574,6 +583,12 @@ label {
     font-weight: 700;
     color: var(--color-primary);
     text-align: left;
+}
+.agreement p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--color-grey);
+    font-weight: 400;
 }
 
 input[type="text"],
@@ -636,7 +651,8 @@ input[type="email"]:focus {
 .agreement input:checked+span {
     background-image: url(../assets/Checkmark.svg);
     background-position: center;
-    background-size: cover;
+    background-size: 12px 11px;
+    background-repeat: no-repeat;
 }
 
 .send-btn {
@@ -711,5 +727,4 @@ input[type="email"]:focus {
 
 /* TO DO  */
 /* use ::before instead ov divs in background images */
-/* add icons to questions section  */
 /* make checkbox checked img smaller */
